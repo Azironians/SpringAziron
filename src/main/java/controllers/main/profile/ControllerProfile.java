@@ -15,7 +15,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
 import javafx.scene.text.Text;
-import managment.profileManagement.ProfileManager;
+import management.profileManagement.ProfileManager;
 
 import java.net.URL;
 import java.util.ResourceBundle;

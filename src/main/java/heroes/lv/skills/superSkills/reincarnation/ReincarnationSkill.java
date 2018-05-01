@@ -3,8 +3,8 @@ package heroes.lv.skills.superSkills.reincarnation;
 import heroes.abstractHero.skills.abstractSkill.AbstractSkill;
 import javafx.scene.image.ImageView;
 import javafx.scene.media.Media;
-import managment.battleManagement.BattleManager;
-import managment.playerManagement.PlayerManager;
+import management.battleManagement.BattleManager;
+import management.playerManagement.PlayerManager;
 
 import java.util.List;
 

@@ -13,11 +13,12 @@ import javafx.scene.control.Button;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.text.Text;
 import main.AGame;
-import managment.actionManagement.ActionManager;
-import managment.actionManagement.service.engine.EventEngine;
-import managment.playerManagement.PlayerManager;
-import managment.profileManagement.Profile;
-import managment.profileManagement.ProfileManager;
+import management.actionManagement.ActionManager;
+import management.actionManagement.service.engine.EventEngine;
+import management.playerManagement.PlayerManager;
+import management.profileManagement.Profile;
+import management.profileManagement.ProfileManager;
+import org.springframework.stereotype.Component;
 import security.gate.AGate;
 
 import java.net.URL;

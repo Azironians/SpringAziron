@@ -4,13 +4,13 @@ import bonus.bonuses.Bonus;
 import bonus.generalBonuses.bonuses.health.HStrengthenTheArmor;
 import heroes.abstractHero.hero.Hero;
 import javafx.scene.image.ImageView;
-import managment.actionManagement.actions.ActionEvent;
-import managment.actionManagement.actions.ActionType;
-import managment.actionManagement.service.components.handleComponet.HandleComponent;
-import managment.actionManagement.service.engine.services.DynamicHandleService;
-import managment.playerManagement.Player;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import management.actionManagement.actions.ActionEvent;
+import management.actionManagement.actions.ActionType;
+import management.actionManagement.service.components.handleComponet.HandleComponent;
+import management.actionManagement.service.engine.services.DynamicHandleService;
+import management.playerManagement.Player;
+
+import java.util.logging.Logger;
 
 public final class HKronArmor extends Bonus implements DynamicHandleService{
 
@@ -18,7 +18,7 @@ public final class HKronArmor extends Bonus implements DynamicHandleService{
         super(name, id, sprite);
     }
 
-    private static final Logger log = LoggerFactory.getLogger(HStrengthenTheArmor.class);
+    private static final Logger log = Logger.getLogger(HStrengthenTheArmor.class.getName());
 
     private static final double HEALING = 120.0;
 

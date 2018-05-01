@@ -2,7 +2,7 @@ package modules.managerModules;
 
 import com.google.inject.AbstractModule;
 import com.google.inject.name.Names;
-import managment.battleManagement.BattleManager;
+import management.battleManagement.BattleManager;
 
 public final class BattleManagerModule extends AbstractModule{
     

@@ -3,13 +3,13 @@ package bonus.devourerBonuses.bonuses.attack.growTentacle;
 import bonus.bonuses.Bonus;
 import heroes.abstractHero.hero.Hero;
 import javafx.scene.image.ImageView;
-import managment.playerManagement.Player;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import management.playerManagement.Player;
+
+import java.util.logging.Logger;
 
 final class CutTentacle extends Bonus{
 
-    private static final Logger log = LoggerFactory.getLogger(CutTentacle.class);
+    private static final Logger log = Logger.getLogger(CutTentacle.class.getName());
 
     private static final int ATTACK_FIX = 4;
 

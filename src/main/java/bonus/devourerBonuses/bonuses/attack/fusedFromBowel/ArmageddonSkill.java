@@ -3,11 +3,11 @@ package bonus.devourerBonuses.bonuses.attack.fusedFromBowel;
 import heroes.abstractHero.skills.abstractSkill.AbstractSkill;
 import javafx.scene.image.ImageView;
 import javafx.scene.media.Media;
-import managment.actionManagement.ActionManager;
-import managment.actionManagement.actions.ActionEventFactory;
-import managment.battleManagement.BattleManager;
-import managment.playerManagement.Player;
-import managment.playerManagement.PlayerManager;
+import management.actionManagement.ActionManager;
+import management.actionManagement.actions.ActionEventFactory;
+import management.battleManagement.BattleManager;
+import management.playerManagement.Player;
+import management.playerManagement.PlayerManager;
 
 import java.util.ArrayList;
 import java.util.Collections;

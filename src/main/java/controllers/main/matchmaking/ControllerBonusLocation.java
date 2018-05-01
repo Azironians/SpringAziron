@@ -2,8 +2,8 @@ package controllers.main.matchmaking;
 
 import com.google.inject.Inject;
 import javafx.fxml.Initializable;
-import managment.actionManagement.ActionManager;
-import managment.playerManagement.PlayerManager;
+import management.actionManagement.ActionManager;
+import management.playerManagement.PlayerManager;
 
 import java.net.URL;
 import java.util.ResourceBundle;

@@ -3,12 +3,12 @@ package bonus.generalBonuses.bonuses.health;
 import bonus.bonuses.Bonus;
 import heroes.abstractHero.hero.Hero;
 import javafx.scene.image.ImageView;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+
+import java.util.logging.Logger;
 
 public final class HElixirOfLife extends Bonus {
 
-    private static final Logger log = LoggerFactory.getLogger(HElixirOfLife.class);
+    private static final Logger log = Logger.getLogger(HElixirOfLife.class.getName());
 
     private static final double HEALING_BOOST = 50;
 

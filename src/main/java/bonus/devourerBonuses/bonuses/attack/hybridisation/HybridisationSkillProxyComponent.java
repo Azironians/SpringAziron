@@ -9,7 +9,7 @@ import javafx.scene.Node;
 import javafx.scene.layout.Pane;
 import javafx.util.Pair;
 import lib.duplexMap.DuplexMap;
-import managment.playerManagement.Player;
+import management.playerManagement.Player;
 
 import java.util.HashMap;
 import java.util.List;

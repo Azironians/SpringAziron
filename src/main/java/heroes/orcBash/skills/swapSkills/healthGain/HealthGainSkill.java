@@ -4,8 +4,8 @@ import heroes.abstractHero.hero.Hero;
 import heroes.abstractHero.skills.swapSkill.AbstractSimplifiedSkill;
 import javafx.scene.image.ImageView;
 import javafx.scene.media.Media;
-import managment.battleManagement.BattleManager;
-import managment.playerManagement.PlayerManager;
+import management.battleManagement.BattleManager;
+import management.playerManagement.PlayerManager;
 
 import java.util.List;
 

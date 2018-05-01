@@ -3,12 +3,12 @@ package bonus.generalBonuses.bonuses.attack;
 import bonus.bonuses.Bonus;
 import heroes.abstractHero.hero.Hero;
 import javafx.scene.image.ImageView;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+
+import java.util.logging.Logger;
 
 public final class AAxeUp extends Bonus {
 
-    private static final Logger log = LoggerFactory.getLogger(AAxeUp.class);
+    private static final Logger log = Logger.getLogger(AAxeUp.class.getName());
 
     private static final int ATTACK_BOOST = 2;
 

@@ -1,14 +1,14 @@
 package bonus.generalBonuses.bonuses.attack.doubleInHead;
 
 import heroes.abstractHero.hero.Hero;
-import managment.actionManagement.ActionManager;
-import managment.actionManagement.actionProccessors.AttackProcessor;
-import managment.actionManagement.actions.ActionEventFactory;
-import managment.actionManagement.service.engine.EventEngine;
-import managment.battleManagement.BattleManager;
-import managment.playerManagement.ATeam;
-import managment.playerManagement.Player;
-import managment.playerManagement.PlayerManager;
+import management.actionManagement.ActionManager;
+import management.actionManagement.actionProccessors.AttackProcessor;
+import management.actionManagement.actions.ActionEventFactory;
+import management.actionManagement.service.engine.EventEngine;
+import management.battleManagement.BattleManager;
+import management.playerManagement.ATeam;
+import management.playerManagement.Player;
+import management.playerManagement.PlayerManager;
 
 import static bonus.generalBonuses.bonuses.attack.doubleInHead.ADoubleInHead.ATTACK_COEFFICIENT;
 import static bonus.generalBonuses.bonuses.attack.doubleInHead.ADoubleInHead.LOG;

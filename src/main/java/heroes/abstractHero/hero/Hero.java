@@ -6,16 +6,15 @@ import heroes.abstractHero.bonusManagement.BonusManager;
 import heroes.abstractHero.skills.Skill;
 import javafx.scene.image.ImageView;
 import javafx.scene.media.Media;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.logging.Logger;
 
 public abstract class Hero {
 
-    private static final Logger log = LoggerFactory.getLogger(Hero.class);
+    private static final Logger log = Logger.getLogger(Hero.class.getName());
 
     private static final double START_EXPERIENCE = 0.0;
 

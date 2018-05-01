@@ -14,7 +14,7 @@ import javafx.scene.layout.Pane;
 import javafx.scene.text.Text;
 import javafx.util.Duration;
 import main.AGame;
-import managment.paramManagement.ParamsManager;
+import management.paramManagement.ParamsManager;
 import java.net.URL;
 import java.util.ResourceBundle;
 

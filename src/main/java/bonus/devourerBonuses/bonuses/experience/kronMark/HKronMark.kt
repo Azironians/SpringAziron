@@ -3,11 +3,11 @@ package bonus.devourerBonuses.bonuses.experience.kronMark
 import bonus.bonuses.Bonus
 import heroes.abstractHero.skills.Skill
 import javafx.scene.image.ImageView
-import managment.actionManagement.actions.ActionEvent
-import managment.actionManagement.service.components.handleComponet.HandleComponent
-import managment.actionManagement.service.components.handleComponet.IllegalSwitchOffHandleComponentException
-import managment.actionManagement.service.engine.services.RegularHandleService
-import managment.playerManagement.Player
+import management.actionManagement.actions.ActionEvent
+import management.actionManagement.service.components.handleComponet.HandleComponent
+import management.actionManagement.service.components.handleComponet.IllegalSwitchOffHandleComponentException
+import management.actionManagement.service.engine.services.RegularHandleService
+import management.playerManagement.Player
 import java.util.ArrayList
 
 class HKronMark(name: String, id: Int, imageView: ImageView) : Bonus(name, id, imageView), RegularHandleService{

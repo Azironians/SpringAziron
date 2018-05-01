@@ -7,8 +7,8 @@ import heroes.abstractHero.skills.abstractSkill.AbstractSkill;
 import javafx.collections.ObservableList;
 import javafx.scene.Node;
 import javafx.scene.layout.Pane;
-import managment.actionManagement.ActionManager;
-import managment.playerManagement.Player;
+import management.actionManagement.ActionManager;
+import management.playerManagement.Player;
 
 import java.util.ArrayList;
 import java.util.List;

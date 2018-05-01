@@ -7,9 +7,9 @@ import javafx.fxml.FXML;
 import javafx.scene.control.Button;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Pane;
-import managment.actionManagement.ActionManager;
+import management.actionManagement.ActionManager;
 import javafx.fxml.Initializable;
-import managment.playerManagement.PlayerManager;
+import management.playerManagement.PlayerManager;
 import org.jetbrains.annotations.Contract;
 
 import java.net.URL;
@@ -74,7 +74,6 @@ public final class ControllerMatchMaking implements Initializable, Controller {
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        logger.info("Start!");
         leftLocation = new ALocation(leftLocationPane, false);
         rightLocation = new ALocation(rightLocationPane, true);
     }

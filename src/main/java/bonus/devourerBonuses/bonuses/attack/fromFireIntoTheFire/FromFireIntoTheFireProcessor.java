@@ -1,14 +1,14 @@
 package bonus.devourerBonuses.bonuses.attack.fromFireIntoTheFire;
 
 import heroes.abstractHero.hero.Hero;
-import managment.actionManagement.ActionManager;
-import managment.actionManagement.actionProccessors.TreatmentProcessor;
-import managment.actionManagement.actions.ActionEventFactory;
-import managment.actionManagement.service.engine.EventEngine;
-import managment.battleManagement.BattleManager;
-import managment.playerManagement.ATeam;
-import managment.playerManagement.Player;
-import managment.playerManagement.PlayerManager;
+import management.actionManagement.ActionManager;
+import management.actionManagement.actionProccessors.TreatmentProcessor;
+import management.actionManagement.actions.ActionEventFactory;
+import management.actionManagement.service.engine.EventEngine;
+import management.battleManagement.BattleManager;
+import management.playerManagement.ATeam;
+import management.playerManagement.Player;
+import management.playerManagement.PlayerManager;
 
 public final class FromFireIntoTheFireProcessor extends TreatmentProcessor {
 

@@ -7,7 +7,7 @@ import javafx.scene.Node
 import javafx.scene.image.ImageView
 import javafx.scene.layout.{AnchorPane, Pane}
 import javafx.scene.text.Text
-import managment.playerManagement.Player
+import management.playerManagement.Player
 
 import scala.collection.mutable
 

@@ -1,8 +1,8 @@
 package controllers.main;
 
 import controllers.Controller;
-import managment.playerManagement.Player;
-import managment.profileManagement.Profile;
+import management.playerManagement.Player;
+import management.profileManagement.Profile;
 import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.text.Text;

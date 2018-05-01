@@ -2,7 +2,7 @@ package core.src.bonus.bashBonuses.bonuses.attack
 
 import bonus.bonuses.Bonus
 import javafx.scene.image.ImageView
-import managment.actionManagement.actions.ActionEventFactory
+import management.actionManagement.actions.ActionEventFactory
 
 class AWooo(name: String, id: Int, sprite: ImageView) : Bonus(name, id, sprite){
 

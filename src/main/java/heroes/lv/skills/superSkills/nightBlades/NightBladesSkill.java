@@ -3,18 +3,17 @@ package heroes.lv.skills.superSkills.nightBlades;
 import heroes.abstractHero.skills.abstractSkill.AbstractSkill;
 import javafx.scene.image.ImageView;
 import javafx.scene.media.Media;
-import managment.battleManagement.BattleManager;
-import managment.playerManagement.PlayerManager;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import management.battleManagement.BattleManager;
+import management.playerManagement.PlayerManager;
 
 import java.util.List;
+import java.util.logging.Logger;
 
 import static heroes.lv.skills.superSkills.nightBlades.NightBladesPropertySkill.*;
 
 public final class NightBladesSkill extends AbstractSkill {
 
-    private static final Logger log = LoggerFactory.getLogger(NightBladesSkill.class);
+    private static final Logger log = Logger.getLogger(NightBladesSkill.class.getName());
 
     public NightBladesSkill(final ImageView sprite, final ImageView description, final List<Media> voiceList) {
         super(NAME, RELOAD, REQUIRED_LEVEL, getSkillCoefficients()

@@ -3,7 +3,7 @@ package bonus.devourerBonuses.bonuses.special
 import bonus.bonuses.ExtendedBonus
 import javafx.scene.image.ImageView
 import javafx.scene.text.Text
-import managment.actionManagement.actions.ActionEventFactory
+import management.actionManagement.actions.ActionEventFactory
 
 final class SMeteora(name: String, id: Int, sprite: ImageView) extends ExtendedBonus(name, id, sprite){
 

@@ -4,7 +4,7 @@ import annotations.bindingAnnotations.BonusService;
 import annotations.bindingAnnotations.ProfileService;
 import com.google.inject.Singleton;
 import com.google.inject.name.Named;
-import managment.profileManagement.Profile;
+import management.profileManagement.Profile;
 import security.loadSuppliers.LoadSupplier;
 import gui.endavour.Endeavour;
 import com.google.inject.Inject;

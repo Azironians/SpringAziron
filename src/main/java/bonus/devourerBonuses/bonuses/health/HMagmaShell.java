@@ -3,12 +3,12 @@ package bonus.devourerBonuses.bonuses.health;
 import bonus.bonuses.Bonus;
 import heroes.abstractHero.hero.Hero;
 import javafx.scene.image.ImageView;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+
+import java.util.logging.Logger;
 
 public final class HMagmaShell extends Bonus {
 
-    private static final Logger log = LoggerFactory.getLogger(HMagmaShell.class);
+    private static final Logger log = Logger.getLogger(HMagmaShell.class.getName());
 
     private static final int FIRST_LEVEL = 1;
 

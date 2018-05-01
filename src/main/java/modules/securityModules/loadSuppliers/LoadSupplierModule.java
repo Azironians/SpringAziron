@@ -4,7 +4,7 @@ import annotations.bindingAnnotations.BonusService;
 import annotations.bindingAnnotations.ProfileService;
 import com.google.inject.AbstractModule;
 import com.google.inject.TypeLiteral;
-import managment.profileManagement.Profile;
+import management.profileManagement.Profile;
 import security.loadSuppliers.LoadSupplier;
 import security.loadSuppliers.bonusSupplier.BonusData;
 import security.loadSuppliers.bonusSupplier.BonusLoadSupplier;

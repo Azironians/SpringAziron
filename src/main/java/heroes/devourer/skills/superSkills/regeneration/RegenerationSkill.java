@@ -1,25 +1,24 @@
 package heroes.devourer.skills.superSkills.regeneration;
 
-import managment.actionManagement.service.components.handleComponet.HandleComponent;
+import management.actionManagement.service.components.handleComponet.HandleComponent;
 import heroes.abstractHero.hero.Hero;
 import heroes.abstractHero.skills.abstractSkill.AbstractSkill;
 import javafx.scene.image.ImageView;
 import javafx.scene.media.Media;
-import managment.actionManagement.actions.ActionEvent;
-import managment.actionManagement.actions.ActionType;
-import managment.battleManagement.BattleManager;
-import managment.playerManagement.Player;
-import managment.playerManagement.PlayerManager;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import management.actionManagement.actions.ActionEvent;
+import management.actionManagement.actions.ActionType;
+import management.battleManagement.BattleManager;
+import management.playerManagement.Player;
+import management.playerManagement.PlayerManager;
 
 import java.util.List;
+import java.util.logging.Logger;
 
 import static heroes.devourer.skills.superSkills.regeneration.RegenerationPropertySkill.*;
 
 public final class RegenerationSkill extends AbstractSkill {
 
-    private static final Logger log = LoggerFactory.getLogger(RegenerationSkill.class);
+    private static final Logger log = Logger.getLogger(RegenerationSkill.class.getName());
 
     public RegenerationSkill(final ImageView sprite, final ImageView description, final List<Media> voiceList) {
         super(NAME, RELOAD, REQUIRED_LEVEL, getSkillCoefficients()

@@ -3,12 +3,12 @@ package bonus.devourerBonuses.bonuses.experience;
 import bonus.bonuses.Bonus;
 import heroes.abstractHero.hero.Hero;
 import javafx.scene.image.ImageView;
-import managment.actionManagement.actions.ActionEvent;
-import managment.actionManagement.actions.ActionType;
-import managment.actionManagement.service.components.handleComponet.HandleComponent;
-import managment.actionManagement.service.components.handleComponet.IllegalSwitchOffHandleComponentException;
-import managment.actionManagement.service.engine.services.RegularHandleService;
-import managment.playerManagement.Player;
+import management.actionManagement.actions.ActionEvent;
+import management.actionManagement.actions.ActionType;
+import management.actionManagement.service.components.handleComponet.HandleComponent;
+import management.actionManagement.service.components.handleComponet.IllegalSwitchOffHandleComponentException;
+import management.actionManagement.service.engine.services.RegularHandleService;
+import management.playerManagement.Player;
 
 public final class XUsurpation extends Bonus implements RegularHandleService {
 

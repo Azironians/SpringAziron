@@ -3,16 +3,16 @@ package bonus.generalBonuses.bonuses.attack;
 import bonus.bonuses.Bonus;
 import heroes.abstractHero.hero.Hero;
 import javafx.scene.image.ImageView;
-import managment.actionManagement.actions.ActionEventFactory;
-import managment.playerManagement.Player;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import management.actionManagement.actions.ActionEventFactory;
+import management.playerManagement.Player;
+
 
 import java.util.Arrays;
+import java.util.logging.Logger;
 
 public final class ABerserk extends Bonus {
 
-    private static final Logger log = LoggerFactory.getLogger(ABerserk.class);
+    private static final Logger log = Logger.getLogger(ABerserk.class.getName());
 
     public ABerserk(final String name, final int id, final ImageView sprite) {
         super(name, id, sprite);

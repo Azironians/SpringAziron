@@ -1,9 +1,9 @@
 package controllers.main.matchmaking;
 
 import com.google.inject.Inject;
-import managment.actionManagement.ActionManager;
-import managment.playerManagement.ATeam;
-import managment.playerManagement.PlayerManager;
+import management.actionManagement.ActionManager;
+import management.playerManagement.ATeam;
+import management.playerManagement.PlayerManager;
 
 abstract class ControllerLocation {
 

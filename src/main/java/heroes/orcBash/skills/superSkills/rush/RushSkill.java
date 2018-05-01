@@ -4,20 +4,18 @@ import heroes.abstractHero.hero.Hero;
 import heroes.abstractHero.skills.abstractSkill.AbstractSkill;
 import javafx.scene.image.ImageView;
 import javafx.scene.media.Media;
-import managment.actionManagement.actions.ActionEventFactory;
-import managment.battleManagement.BattleManager;
-import managment.playerManagement.Player;
-import managment.playerManagement.PlayerManager;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
+import management.actionManagement.actions.ActionEventFactory;
+import management.battleManagement.BattleManager;
+import management.playerManagement.Player;
+import management.playerManagement.PlayerManager;
 import java.util.List;
+import java.util.logging.Logger;
 
 import static heroes.orcBash.skills.superSkills.rush.RushPropertySkill.*;
 
 public final class RushSkill extends AbstractSkill {
 
-    private static final Logger log = LoggerFactory.getLogger(RushSkill.class);
+    private static final Logger log = Logger.getLogger(RushSkill.class.getName());
 
     public RushSkill(final ImageView sprite, final ImageView description, final List<Media> voiceList) {
         super(NAME, RELOAD, REQUIRED_LEVEL, getSkillCoefficients()

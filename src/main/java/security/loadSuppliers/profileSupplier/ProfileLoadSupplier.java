@@ -9,12 +9,10 @@ import gui.windows.WindowType;
 import javafx.scene.layout.Pane;
 import javafx.scene.text.Text;
 import main.AGame;
-import managment.playerManagement.PlayerManager;
-import managment.profileManagement.Profile;
-import managment.profileManagement.ProfileManager;
+import management.playerManagement.PlayerManager;
+import management.profileManagement.Profile;
+import management.profileManagement.ProfileManager;
 import org.jetbrains.annotations.NotNull;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import security.assistants.ProfileAssistant;
 import security.loadSuppliers.LoadSupplier;
 
@@ -24,12 +22,13 @@ import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.util.List;
 import java.util.Map;
+import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 @Singleton
 public final class ProfileLoadSupplier implements LoadSupplier<Profile> {
 
-    private static final Logger log = LoggerFactory.getLogger(ProfileLoadSupplier.class);
+    private static final Logger log = Logger.getLogger(ProfileLoadSupplier.class.getName());
 
     //Authorization messages:
     @Inject

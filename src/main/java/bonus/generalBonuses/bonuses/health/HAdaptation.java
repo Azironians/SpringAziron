@@ -3,12 +3,12 @@ package bonus.generalBonuses.bonuses.health;
 import bonus.bonuses.Bonus;
 import heroes.abstractHero.hero.Hero;
 import javafx.scene.image.ImageView;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+
+import java.util.logging.Logger;
 
 public final class HAdaptation extends Bonus {
 
-    private static final Logger log = LoggerFactory.getLogger(HAdaptation.class);
+    private static final Logger log = Logger.getLogger(HAdaptation.class.getName());
 
     public HAdaptation(final String name, final int id, final ImageView sprite) {
         super(name, id, sprite);

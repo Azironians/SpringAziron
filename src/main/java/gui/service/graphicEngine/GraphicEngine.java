@@ -16,25 +16,23 @@ import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.Pane;
 import javafx.util.Duration;
 import main.AGame;
-import managment.actionManagement.ActionManager;
-import managment.actionManagement.actions.ActionEvent;
-import managment.actionManagement.actions.ActionEventFactory;
-import managment.actionManagement.service.engine.EventEngine;
-import managment.battleManagement.BattleManager;
-import managment.playerManagement.GameMode;
-import managment.playerManagement.Player;
-import managment.playerManagement.ATeam;
-import managment.playerManagement.PlayerManager;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
+import management.actionManagement.ActionManager;
+import management.actionManagement.actions.ActionEvent;
+import management.actionManagement.actions.ActionEventFactory;
+import management.actionManagement.service.engine.EventEngine;
+import management.battleManagement.BattleManager;
+import management.playerManagement.GameMode;
+import management.playerManagement.Player;
+import management.playerManagement.ATeam;
+import management.playerManagement.PlayerManager;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.Logger;
 
 @Singleton
 public final class GraphicEngine {
 
-    private static final Logger log = LoggerFactory.getLogger(GraphicEngine.class);
+    private static final Logger log = Logger.getLogger(GraphicEngine.class.getName());
 
     @Inject
     private AGame aGame;
@@ -102,7 +100,7 @@ public final class GraphicEngine {
             final List<Skill> skills = hero.getCollectionOfSkills();
             for (final Skill skill : skills){
                 skill.setActionManager(actionManager);
-                log.debug("Successfully wired action manager" + skill.getName());
+                log.info("Successfully wired action manager" + skill.getName());
             }
         }
     }
@@ -151,10 +149,10 @@ public final class GraphicEngine {
 //        log.debug("ALIVE: " + team.getAlternativePlayer().isAlive());
 //        log.debug("READY_SWAP: " + team.getAlternativePlayer().getCurrentHero().getSwapSkill().isReady());
             if (alternativePlayer.isAlive() && alternativePlayer.getCurrentHero().getSwapSkill().isReady()){
-                log.debug("SWAP_SKILL_IS_VISIBLE");
+                log.info("SWAP_SKILL_IS_VISIBLE");
                 location.getSwapSkillPane().setVisible(true);
             } else {
-                log.debug("SWAP_SKILL_IS_INVISIBLE");
+                log.info("SWAP_SKILL_IS_INVISIBLE");
                 location.getSwapSkillPane().setVisible(false);
             }
         }

@@ -19,13 +19,12 @@ import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
 import javafx.scene.text.Text;
 import javafx.util.Duration;
-import managment.playerManagement.GameMode;
-import managment.playerManagement.PlayerManager;
-import managment.profileManagement.ProfileManager;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import management.playerManagement.GameMode;
+import management.playerManagement.PlayerManager;
+import management.profileManagement.ProfileManager;
 import java.net.URL;
 import java.util.ResourceBundle;
+import java.util.logging.Logger;
 
 import static controllers.main.menu.ProfileRequest.*;
 
@@ -33,7 +32,7 @@ import static controllers.main.menu.ProfileRequest.*;
 // FIXME: 28.12.2017 falling controller
 public final class ControllerMenu implements Initializable, Controller {
 
-    private final Logger logger = LoggerFactory.getLogger(ControllerMenu.class);
+    private final Logger logger = Logger.getLogger(ControllerMenu.class.getName());
 
     @FXML
     private Pane playerPane;

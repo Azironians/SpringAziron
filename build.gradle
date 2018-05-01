@@ -34,7 +34,7 @@ compileTestKotlin {
     }
 }
 
-mainClassName = 'App'
+mainClassName = 'AGame'
 
 dependencies {
     //Libs:
@@ -52,9 +52,6 @@ dependencies {
     implementation 'kotlin:stdlib:1.2.41'
     //JUnit:
     testImplementation 'junit:junit:4.12'
-    //Slf4j:
-    implementation 'Simple Logging Facade for Java:1.5.0'
-    implementation 'org.slf4j:slf4j-log4j12:1.5.0'
     //GoogleGuice:
     implementation 'com.google.inject:guice:4.1.0'
 

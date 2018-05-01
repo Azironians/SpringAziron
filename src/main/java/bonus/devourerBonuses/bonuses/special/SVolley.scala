@@ -2,10 +2,10 @@ package bonus.devourerBonuses.bonuses.special
 
 import bonus.bonuses.Bonus
 import javafx.scene.image.ImageView
-import managment.actionManagement.actions.{ActionEvent, ActionEventFactory, ActionType}
-import managment.actionManagement.service.components.handleComponet.HandleComponent
-import managment.actionManagement.service.engine.services.DynamicHandleService
-import managment.playerManagement.Player
+import management.actionManagement.actions.{ActionEvent, ActionEventFactory, ActionType}
+import management.actionManagement.service.components.handleComponet.HandleComponent
+import management.actionManagement.service.engine.services.DynamicHandleService
+import management.playerManagement.Player
 
 final class SVolley(name: String, id: Int, sprite: ImageView) extends Bonus(name, id, sprite)
   with DynamicHandleService {

@@ -11,20 +11,16 @@ import javafx.fxml.Initializable;
 import javafx.scene.control.Button;
 import javafx.scene.image.ImageView;
 import javafx.util.Duration;
-import org.apache.log4j.PropertyConfigurator;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import java.net.URL;
 import java.util.ResourceBundle;
+import java.util.logging.Logger;
 
 //Finished:
 public final class ControllerInitialization implements Initializable, Controller {
 
-    private final Logger logger = LoggerFactory.getLogger(ControllerInitialization.class);
+    private final Logger logger = Logger.getLogger(ControllerInitialization.class.getName());
 
     {
-        PropertyConfigurator.configure("./src/main/java/log4j.properties");
         logger.info("Hello world");
     }
 

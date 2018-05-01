@@ -9,19 +9,18 @@ import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
 import javafx.scene.media.Media;
 import javafx.util.Duration;
-import managment.actionManagement.ActionManager;
-import managment.actionManagement.actions.ActionEvent;
-import managment.battleManagement.BattleManager;
-import managment.playerManagement.PlayerManager;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import management.actionManagement.ActionManager;
+import management.actionManagement.actions.ActionEvent;
+import management.battleManagement.BattleManager;
+import management.playerManagement.PlayerManager;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.Logger;
 
 public abstract class AbstractSkill implements Skill {
 
-    private static final Logger log = LoggerFactory.getLogger(AbstractSkill.class);
+    private static final Logger log = Logger.getLogger(AbstractSkill.class.getName());
 
     protected static final int START_OPACITY = 0;
 

@@ -3,17 +3,16 @@ package bonus.devourerBonuses.bonuses.health.morphing;
 import heroes.abstractHero.skills.abstractSkill.AbstractSkill;
 import javafx.scene.image.ImageView;
 import javafx.scene.media.Media;
-import managment.battleManagement.BattleManager;
-import managment.playerManagement.PlayerManager;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import management.battleManagement.BattleManager;
+import management.playerManagement.PlayerManager;
 
 import java.util.Collections;
 import java.util.List;
+import java.util.logging.Logger;
 
 public final class MorphingSkill extends AbstractSkill {
 
-    private static final Logger log = LoggerFactory.getLogger(MorphingSkill.class);
+    private static final Logger log = Logger.getLogger(MorphingSkill.class.getName());
 
     private static final String NAME = "Morphing";
 

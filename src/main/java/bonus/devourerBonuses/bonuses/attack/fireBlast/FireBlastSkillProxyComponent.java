@@ -9,10 +9,10 @@ import javafx.scene.Node;
 import javafx.scene.layout.Pane;
 import javafx.util.Pair;
 import lib.duplexMap.DuplexMap;
-import managment.actionManagement.actions.ActionEventFactory;
-import managment.actionManagement.service.engine.EventEngine;
-import managment.playerManagement.Player;
-import managment.playerManagement.PlayerManager;
+import management.actionManagement.actions.ActionEventFactory;
+import management.actionManagement.service.engine.EventEngine;
+import management.playerManagement.Player;
+import management.playerManagement.PlayerManager;
 
 import java.util.HashMap;
 import java.util.List;

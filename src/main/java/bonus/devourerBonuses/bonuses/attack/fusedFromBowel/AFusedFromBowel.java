@@ -4,7 +4,7 @@ import bonus.bonuses.Bonus;
 import heroes.abstractHero.hero.Hero;
 import heroes.abstractHero.skills.Skill;
 import javafx.scene.image.ImageView;
-import managment.playerManagement.Player;
+import management.playerManagement.Player;
 
 import java.util.ArrayList;
 import java.util.List;

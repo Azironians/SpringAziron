@@ -4,11 +4,11 @@ import bonus.bonuses.Bonus;
 import heroes.abstractHero.skills.Skill;
 import javafx.scene.image.ImageView;
 import lib.duplexMap.DuplexMap;
-import managment.actionManagement.actions.ActionEvent;
-import managment.actionManagement.service.components.handleComponet.HandleComponent;
-import managment.actionManagement.service.components.handleComponet.IllegalSwitchOffHandleComponentException;
-import managment.actionManagement.service.engine.services.RegularHandleService;
-import managment.playerManagement.Player;
+import management.actionManagement.actions.ActionEvent;
+import management.actionManagement.service.components.handleComponet.HandleComponent;
+import management.actionManagement.service.components.handleComponet.IllegalSwitchOffHandleComponentException;
+import management.actionManagement.service.engine.services.RegularHandleService;
+import management.playerManagement.Player;
 
 import java.util.ArrayList;
 import java.util.List;

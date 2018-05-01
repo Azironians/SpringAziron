@@ -4,17 +4,17 @@ import bonus.bonuses.Bonus;
 import bonus.generalBonuses.bonuses.health.HStrengthenTheArmor;
 import heroes.abstractHero.hero.Hero;
 import javafx.scene.image.ImageView;
-import managment.actionManagement.actions.ActionEvent;
-import managment.actionManagement.service.components.handleComponet.HandleComponent;
-import managment.actionManagement.service.components.handleComponet.IllegalSwitchOffHandleComponentException;
-import managment.actionManagement.service.engine.services.RegularHandleService;
-import managment.playerManagement.Player;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import management.actionManagement.actions.ActionEvent;
+import management.actionManagement.service.components.handleComponet.HandleComponent;
+import management.actionManagement.service.components.handleComponet.IllegalSwitchOffHandleComponentException;
+import management.actionManagement.service.engine.services.RegularHandleService;
+import management.playerManagement.Player;
+
+import java.util.logging.Logger;
 
 public final class HRegeneratedTissues extends Bonus implements RegularHandleService {
 
-    private static final Logger log = LoggerFactory.getLogger(HStrengthenTheArmor.class);
+    private static final Logger log = Logger.getLogger(HStrengthenTheArmor.class.getName());
 
     private static final double HEALING = 10.0;
 

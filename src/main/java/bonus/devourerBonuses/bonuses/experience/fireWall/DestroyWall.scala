@@ -3,7 +3,7 @@ package bonus.devourerBonuses.bonuses.experience.fireWall
 import bonus.bonuses.Bonus
 import heroes.abstractHero.hero.Hero
 import javafx.scene.image.ImageView
-import managment.actionManagement.service.components.providerComponent.ProviderComponent
+import management.actionManagement.service.components.providerComponent.ProviderComponent
 
 final class DestroyWall(val hero: Hero, val previousProviderComponent: ProviderComponent[java.lang.Integer]
                         , name: String = "", id: Int = 0, imageView: ImageView = new ImageView())

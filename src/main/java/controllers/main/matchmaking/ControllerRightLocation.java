@@ -1,7 +1,7 @@
 package controllers.main.matchmaking;
 
 import javafx.fxml.Initializable;
-import managment.playerManagement.ATeam;
+import management.playerManagement.ATeam;
 
 import java.net.URL;
 import java.util.ResourceBundle;

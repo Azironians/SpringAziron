@@ -10,13 +10,12 @@ import heroes.lv.hero.LV;
 import heroes.orcBash.hero.OrcBash;
 import javafx.scene.image.ImageView;
 import javafx.scene.media.Media;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import java.util.*;
+import java.util.logging.Logger;
 
 public interface HeroBuilder {
 
-    Logger log = LoggerFactory.getLogger(HeroBuilder.class);
+    Logger log = Logger.getLogger(HeroBuilder.class.getName());
 
     default Hero buildHero(){
         final Class clazz = getHeroClass();

@@ -1,7 +1,7 @@
 package modules.managerModules;
 
 import com.google.inject.AbstractModule;
-import managment.playerManagement.PlayerManager;
+import management.playerManagement.PlayerManager;
 
 public final class PlayerManagerModule extends AbstractModule {
 

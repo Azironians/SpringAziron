@@ -1,6 +1,6 @@
 package heroes.abstractHero.bonusManagement;
 
-import managment.actionManagement.service.components.providerComponent.ProviderComponent;
+import management.actionManagement.service.components.providerComponent.ProviderComponent;
 
 import java.util.ArrayList;
 import java.util.Arrays;

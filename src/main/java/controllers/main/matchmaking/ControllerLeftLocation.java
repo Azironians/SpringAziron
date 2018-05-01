@@ -1,16 +1,15 @@
 package controllers.main.matchmaking;
 
 import javafx.fxml.Initializable;
-import managment.playerManagement.ATeam;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import management.playerManagement.ATeam;
 
 import java.net.URL;
 import java.util.ResourceBundle;
+import java.util.logging.Logger;
 
 public final class ControllerLeftLocation extends ControllerLocation implements Initializable {
 
-    private static final Logger log = LoggerFactory.getLogger(ControllerLeftLocation.class);
+    private static final Logger log = Logger.getLogger(ControllerLeftLocation.class.getName());
 
     @Override
     public final void initialize(final URL location, final ResourceBundle resources) {

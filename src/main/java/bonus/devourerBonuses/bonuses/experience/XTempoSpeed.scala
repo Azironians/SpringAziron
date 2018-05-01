@@ -3,10 +3,10 @@ package bonus.devourerBonuses.bonuses.experience
 import bonus.bonuses.Bonus
 import bonus.bonuses.subInterfaces.QuestBonus
 import javafx.scene.image.ImageView
-import managment.actionManagement.actions.{ActionEvent, ActionType}
-import managment.actionManagement.service.components.handleComponet.HandleComponent
-import managment.actionManagement.service.engine.services.DynamicHandleService
-import managment.playerManagement.Player
+import management.actionManagement.actions.{ActionEvent, ActionType}
+import management.actionManagement.service.components.handleComponet.HandleComponent
+import management.actionManagement.service.engine.services.DynamicHandleService
+import management.playerManagement.Player
 
 final class XTempoSpeed(name: String, id: Int, sprite: ImageView) extends Bonus(name, id, sprite) with DynamicHandleService {
 

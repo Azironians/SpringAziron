@@ -11,7 +11,7 @@ import controllers.main.ControllerChoiceBonus;
 import gui.endavour.Endeavour;
 import gui.windows.WindowType;
 import main.AGame;
-import managment.profileManagement.ProfileManager;
+import management.profileManagement.ProfileManager;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;

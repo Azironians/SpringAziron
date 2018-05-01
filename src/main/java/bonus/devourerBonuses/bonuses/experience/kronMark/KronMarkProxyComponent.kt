@@ -3,8 +3,8 @@ package bonus.devourerBonuses.bonuses.experience.kronMark
 import lib.duplexMap.DuplexMap
 import heroes.abstractHero.skills.Skill
 import javafx.scene.layout.Pane
-import managment.playerManagement.Player
-import managment.playerManagement.PlayerManager
+import management.playerManagement.Player
+import management.playerManagement.PlayerManager
 
 class KronMarkProxyComponent(val player: Player?) {
 

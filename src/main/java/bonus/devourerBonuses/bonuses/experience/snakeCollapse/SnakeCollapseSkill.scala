@@ -3,8 +3,8 @@ package bonus.devourerBonuses.bonuses.experience.snakeCollapse
 import heroes.abstractHero.skills.abstractSkill.AbstractSkill
 import javafx.scene.image.ImageView
 import javafx.scene.media.Media
-import managment.battleManagement.BattleManager
-import managment.playerManagement.PlayerManager
+import management.battleManagement.BattleManager
+import management.playerManagement.PlayerManager
 
 final class SnakeCollapseSkill(name: String = "",
                          reload: Int = 0,

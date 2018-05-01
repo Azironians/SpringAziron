@@ -2,18 +2,18 @@ package bonus.devourerBonuses.bonuses.attack;
 
 import bonus.bonuses.Bonus;
 import javafx.scene.image.ImageView;
-import managment.actionManagement.actions.ActionEvent;
-import managment.actionManagement.actions.ActionEventFactory;
-import managment.actionManagement.actions.ActionType;
-import managment.actionManagement.service.components.handleComponet.HandleComponent;
-import managment.actionManagement.service.engine.services.DynamicHandleService;
-import managment.playerManagement.Player;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import management.actionManagement.actions.ActionEvent;
+import management.actionManagement.actions.ActionEventFactory;
+import management.actionManagement.actions.ActionType;
+import management.actionManagement.service.components.handleComponet.HandleComponent;
+import management.actionManagement.service.engine.services.DynamicHandleService;
+import management.playerManagement.Player;
+
+import java.util.logging.Logger;
 
 public final class ABurnOfKron extends Bonus implements DynamicHandleService{
 
-    private static final Logger log = LoggerFactory.getLogger(ABurnOfKron.class);
+    private static final Logger log = Logger.getLogger(ABurnOfKron.class.getName());
 
     private static final double DAMAGE_COEFFICIENT = 0.05;
 

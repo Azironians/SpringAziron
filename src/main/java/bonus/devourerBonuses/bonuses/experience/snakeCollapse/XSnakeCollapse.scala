@@ -2,11 +2,11 @@ package bonus.devourerBonuses.bonuses.experience.snakeCollapse
 
 import bonus.bonuses.Bonus
 import javafx.scene.image.ImageView
-import managment.actionManagement.actions.{ActionEvent, ActionType}
-import managment.actionManagement.service.components.handleComponet.HandleComponent
-import managment.actionManagement.service.engine.services.DynamicHandleService
-import managment.playerManagement.Player
-import managment.processors.Processor
+import management.actionManagement.actions.{ActionEvent, ActionType}
+import management.actionManagement.service.components.handleComponet.HandleComponent
+import management.actionManagement.service.engine.services.DynamicHandleService
+import management.playerManagement.Player
+import management.processors.Processor
 
 final class XSnakeCollapse(name: String, id: Int, sprite: ImageView) extends Bonus(name, id, sprite)
   with DynamicHandleService {

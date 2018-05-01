@@ -4,15 +4,14 @@ import bonus.bonuses.Bonus;
 import heroes.abstractHero.hero.Hero;
 import heroes.abstractHero.skills.Skill;
 import javafx.scene.image.ImageView;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.logging.Logger;
 
 public final class SWayOfWizard extends Bonus {
 
-    private static final Logger log = LoggerFactory.getLogger(SWayOfWizard.class);
+    private static final Logger log = Logger.getLogger(SWayOfWizard.class.getName());
 
     private static final double SKILL_BOOST = 0.03;
 

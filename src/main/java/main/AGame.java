@@ -1,19 +1,19 @@
 package main;
 
+import com.google.inject.Guice;
 import com.google.inject.Inject;
+import com.google.inject.Injector;
 import com.google.inject.name.Named;
 import gui.sceneMover.SceneMover;
 import gui.windows.AWindow;
-import com.google.inject.Guice;
-import com.google.inject.Injector;
 import gui.windows.WindowType;
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;
 import javafx.scene.image.Image;
 import javafx.stage.Stage;
-import modules.gameModule.AGameModule;
 import modules.MainModule;
-import org.jetbrains.annotations.Contract;
+import modules.gameModule.AGameModule;
+import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 import java.net.URL;
 import java.util.EnumMap;
@@ -31,6 +31,8 @@ public final class AGame extends Application {
 
     private final Injector injector = Guice.createInjector(new MainModule(), new AGameModule(this));
 
+    private ClassPathXmlApplicationContext context;
+
     @Inject
     private Stage stage;
 
@@ -46,7 +48,7 @@ public final class AGame extends Application {
             return result;
         };
 
-        windowMap = new EnumMap<>(WindowType.class) {{
+        this.windowMap = new EnumMap<>(WindowType.class) {{
             put(WindowType.INITIALIZATION, new AWindow(makeFXMLLoader.apply(WindowType.INITIALIZATION.URL())));
             put(WindowType.MENU, new AWindow(makeFXMLLoader.apply(WindowType.MENU.URL())));
             put(WindowType.AUTHORIZATION, new AWindow(makeFXMLLoader.apply(WindowType.AUTHORIZATION.URL())));
@@ -58,24 +60,33 @@ public final class AGame extends Application {
     }
 
     private void stageInitialization() {
-        stage.getIcons().add(new Image(iconPath));
-        stage.setResizable(false);
-        stage.setTitle(buildNumber);
-        stage.show();
+        this.stage.setOnCloseRequest(event -> System.exit(0));
+        this.stage.getIcons().add(new Image(iconPath));
+        this.stage.setResizable(false);
+        this.stage.setTitle(buildNumber);
+        this.stage.show();
+    }
+
+    private void createContext(){
+        this.context = new ClassPathXmlApplicationContext("spring/context/AzironMainContext.xml");
     }
 
     @Override
-    public final void start(Stage virtualStage) throws Exception {
-        stageInitialization();
-        sceneMover.moveToScene(WindowType.INITIALIZATION);
+    public final void start(Stage virtualStage) {
+        this.createContext();
+        this.stageInitialization();
+        this.sceneMover.moveToScene(WindowType.INITIALIZATION);
     }
 
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         launch(args);
     }
 
-    @Contract(pure = true)
     public final EnumMap<WindowType, AWindow> getWindowMap() {
-        return windowMap;
+        return this.windowMap;
+    }
+
+    public final ClassPathXmlApplicationContext getContext() {
+        return this.context;
     }
 }

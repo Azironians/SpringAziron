@@ -3,7 +3,7 @@ package gui.animation;
 import com.google.inject.Singleton;
 import gui.service.locations.ALocation;
 import heroes.abstractHero.hero.Hero;
-import managment.playerManagement.Player;
+import management.playerManagement.Player;
 
 @Singleton
 public final class MainAnimator {

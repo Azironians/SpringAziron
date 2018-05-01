@@ -19,10 +19,10 @@ import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
 import javafx.scene.text.Text;
 import main.AGame;
-import managment.playerManagement.Player;
-import managment.playerManagement.PlayerManager;
-import managment.profileManagement.Profile;
-import managment.profileManagement.ProfileManager;
+import management.playerManagement.Player;
+import management.playerManagement.PlayerManager;
+import management.profileManagement.Profile;
+import management.profileManagement.ProfileManager;
 
 import java.net.URL;
 import java.util.*;

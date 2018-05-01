@@ -1,10 +1,10 @@
 package bonus.devourerBonuses.bonuses.experience.snakeCollapse
 
 import heroes.abstractHero.skills.Skill
-import managment.actionManagement.ActionManager
-import managment.actionManagement.actionProccessors.SkillProcessor
-import managment.battleManagement.BattleManager
-import managment.playerManagement.{ATeam, PlayerManager}
+import management.actionManagement.ActionManager
+import management.actionManagement.actionProccessors.SkillProcessor
+import management.battleManagement.BattleManager
+import management.playerManagement.{ATeam, PlayerManager}
 
 class SnakeCollapseProcessor(actionManager: ActionManager, battleManager: BattleManager, playerManager: PlayerManager)
   extends SkillProcessor(actionManager, battleManager, playerManager){

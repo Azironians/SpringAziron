@@ -3,12 +3,12 @@ package bonus.devourerBonuses.bonuses.health;
 import bonus.bonuses.Bonus;
 import heroes.abstractHero.hero.Hero;
 import javafx.scene.image.ImageView;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+
+import java.util.logging.Logger;
 
 public final class HBurningPotion extends Bonus{
 
-    private static final Logger log = LoggerFactory.getLogger(HBurningPotion.class);
+    private static final Logger log = Logger.getLogger(HBurningPotion.class.getName());
 
     private static final int DAMAGE = 100;
 

@@ -4,10 +4,10 @@ import heroes.abstractHero.hero.Hero;
 import javafx.scene.image.ImageView;
 import javafx.scene.layout.Pane;
 import javafx.scene.media.Media;
-import managment.actionManagement.ActionManager;
-import managment.actionManagement.actions.ActionEvent;
-import managment.battleManagement.BattleManager;
-import managment.playerManagement.PlayerManager;
+import management.actionManagement.ActionManager;
+import management.actionManagement.actions.ActionEvent;
+import management.battleManagement.BattleManager;
+import management.playerManagement.PlayerManager;
 
 import java.util.List;
 

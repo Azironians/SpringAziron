@@ -3,9 +3,9 @@ package bonus.lvBonuses.bonuses.attack;
 import bonus.bonuses.Bonus;
 import heroes.abstractHero.hero.Hero;
 import javafx.scene.image.ImageView;
-import managment.actionManagement.actions.ActionEventFactory;
-import managment.playerManagement.ATeam;
-import managment.playerManagement.Player;
+import management.actionManagement.actions.ActionEventFactory;
+import management.playerManagement.ATeam;
+import management.playerManagement.Player;
 
 public final class AVampBlast extends Bonus {
 

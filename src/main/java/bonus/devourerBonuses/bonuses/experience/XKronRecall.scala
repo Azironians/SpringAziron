@@ -4,10 +4,10 @@ import bonus.bonuses.ExtendedBonus
 import heroes.abstractHero.hero.Hero
 import javafx.scene.image.ImageView
 import javafx.scene.text.Text
-import managment.actionManagement.actions.{ActionEvent, ActionType}
-import managment.actionManagement.service.components.handleComponet.HandleComponent
-import managment.actionManagement.service.engine.services.DynamicHandleService
-import managment.playerManagement.{ATeam, Player}
+import management.actionManagement.actions.{ActionEvent, ActionType}
+import management.actionManagement.service.components.handleComponet.HandleComponent
+import management.actionManagement.service.engine.services.DynamicHandleService
+import management.playerManagement.{ATeam, Player}
 
 import scala.collection.mutable
 

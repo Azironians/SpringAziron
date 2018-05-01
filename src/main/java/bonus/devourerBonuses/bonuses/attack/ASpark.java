@@ -3,8 +3,8 @@ package bonus.devourerBonuses.bonuses.attack;
 import bonus.bonuses.Bonus;
 import heroes.abstractHero.hero.Hero;
 import javafx.scene.image.ImageView;
-import managment.actionManagement.actions.ActionEventFactory;
-import managment.playerManagement.Player;
+import management.actionManagement.actions.ActionEventFactory;
+import management.playerManagement.Player;
 
 public final class ASpark extends Bonus{
 

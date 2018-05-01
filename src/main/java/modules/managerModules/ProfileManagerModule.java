@@ -4,8 +4,8 @@ import annotations.bindingAnnotations.ProfileService;
 import com.google.inject.AbstractModule;
 import com.google.inject.TypeLiteral;
 import controllers.main.menu.ProfileRequest;
-import managment.playerManagement.Player;
-import managment.profileManagement.ProfileManager;
+import management.playerManagement.Player;
+import management.profileManagement.ProfileManager;
 
 import java.util.EnumMap;
 

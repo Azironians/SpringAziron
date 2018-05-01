@@ -1,20 +1,20 @@
 package bonus.generalBonuses.bonuses.attack;
 
 import bonus.bonuses.Bonus;
-import managment.actionManagement.service.components.handleComponet.HandleComponent;
-import managment.actionManagement.service.engine.services.DynamicHandleService;
+import management.actionManagement.service.components.handleComponet.HandleComponent;
+import management.actionManagement.service.engine.services.DynamicHandleService;
 import heroes.abstractHero.hero.Hero;
 import javafx.scene.image.ImageView;
-import managment.actionManagement.actions.ActionEvent;
-import managment.actionManagement.actions.ActionType;
-import managment.playerManagement.Player;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import management.actionManagement.actions.ActionEvent;
+import management.actionManagement.actions.ActionType;
+import management.playerManagement.Player;
+
+import java.util.logging.Logger;
 
 
 public final class AAttack extends Bonus implements DynamicHandleService {
 
-    private static final Logger log = LoggerFactory.getLogger(AAttack.class);
+    private static final Logger log = Logger.getLogger(AAttack.class.getName());
 
     public AAttack(final String name, final int id, final ImageView sprite) {
         super(name, id, sprite);

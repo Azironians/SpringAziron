@@ -3,7 +3,7 @@ package bonus.lvBonuses.bonuses.experience;
 import bonus.bonuses.Bonus;
 import heroes.abstractHero.hero.Hero;
 import javafx.scene.image.ImageView;
-import managment.playerManagement.ATeam;
+import management.playerManagement.ATeam;
 
 public final class EAwareness extends Bonus {
 

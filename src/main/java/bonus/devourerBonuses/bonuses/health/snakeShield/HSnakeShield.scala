@@ -6,10 +6,10 @@ import bonus.bonuses.Bonus
 import heroes.abstractHero.hero.Hero
 import heroes.abstractHero.skills.Skill
 import javafx.scene.image.ImageView
-import managment.actionManagement.actions.{ActionEvent, ActionType}
-import managment.actionManagement.service.components.handleComponet.{HandleComponent, IllegalSwitchOffHandleComponentException}
-import managment.actionManagement.service.engine.services.RegularHandleService
-import managment.playerManagement.Player
+import management.actionManagement.actions.{ActionEvent, ActionType}
+import management.actionManagement.service.components.handleComponet.{HandleComponent, IllegalSwitchOffHandleComponentException}
+import management.actionManagement.service.engine.services.RegularHandleService
+import management.playerManagement.Player
 
 final class HSnakeShield(name: String, val id: Int, sprite: ImageView) extends Bonus(name, id, sprite)
   with RegularHandleService {
